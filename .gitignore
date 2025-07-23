@@ -1,0 +1,61 @@
+# 기본 무시 목록
+.vs/
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+.svn/
+
+# 무시할 파일 확장자
+*.uasset
+*.umap
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tga
+*.psd
+*.mp3
+*.wav
+*.ogg
+*.mp4
+*.avi
+*.sln
+
+# 이외에도 무시할 수 있는 리소스 파일들 추가
+*.fbx
+*.obj
+*.gltf
+*.glb
+
+# 엔진이 생성하는 슬레이트 프리팹 데이터
+*_BuiltData.uasset
+
+# 기본적으로 생성되지만 필요 없는 엔진 파일
+*.pdb
+*.db
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# -------------------------------
+# 커밋 허용할 파일들 (Allowlist)
+# -------------------------------
+# 소스코드
+!Source/**/*.h
+!Source/**/*.cpp
+!Source/**/*.cs
+
+# 프로젝트 파일
+!*.uproject
+
+# 빌드 설정 파일
+!*.Target.cs
+!*.Build.cs
