@@ -1,0 +1,6 @@
+RowName,QuestNumber,QuestType,QuestDescription,QuestMonsterType,QuestInteractionType,QuestClearConditionsNumber,SubQuestList,NextQuestList
+1,1,Interaction,텔레포트로 이동,None,Teleport,1,"(2,3,4)",(5)
+2,2,MonsterKill,근접 몬스터 잡기,CommonMeleeMonster,None,5,0,0
+3,3,MonsterKill,원거리 몬스터 잡기,CommonRangedMonster,None,3,0,0
+4,4,MonsterKill,스폰 몬스터 잡기,CommonSpawnerMonster,None,1,0,0
+5,5,MonsterKill,보스 몬스터 잡기,BossMonster,None,1,0,0
