@@ -10,8 +10,6 @@ Plugins/*/Intermediate/
 .svn/
 
 # 무시할 파일 확장자
-*.uasset
-*.umap
 *.png
 *.jpg
 *.jpeg
